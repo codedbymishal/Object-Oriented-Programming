@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 void swap(int *aptr,int *bptr,int *cptr )
 {
 	int temp;
@@ -22,4 +23,5 @@ int main()
 	cout<<"Values After Swap: "<<endl;
 	cout<<"a= "<<a<<" b= "<<b<<" c= "<<c<<endl;
 	return 0;
+
 }
