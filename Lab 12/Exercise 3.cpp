@@ -25,7 +25,7 @@ int main() {
     Person person1("Ali", 27);
 
     // write to binary file
-    ofstream out("person.bin", ios::binary); // create obj and open file in write mode. it will store data in raw binary format not text.
+    ofstream out("person.bin", ios::binary); // create output file stream obj and open file in binary write mode. it will store data in raw binary format not text.
     if(!out){
         cout<<"File cannot open";
         return 0;
